@@ -5,7 +5,7 @@
 #end
 
 # uncomment if you want to run postgres recipe
-require_recipe 'postgres9::default'
+require_recipe 'postgresql9::default'
 
 # uncomment if you want to run couchdb recipe
 # require_recipe "couchdb"
@@ -20,7 +20,7 @@ require_recipe 'postgres9::default'
 # require_recipe "memcached"
 
 #uncomment to run the authorized_keys recipe
-require_recipe "authorized_keys"
+# require_recipe "authorized_keys"
 
 #uncomment to run the eybackup_slave recipe
 #require_recipe "eybackup_slave"
