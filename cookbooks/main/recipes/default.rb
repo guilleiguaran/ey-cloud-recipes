@@ -5,7 +5,7 @@
 #end
 
 # uncomment if you want to run postgres recipe
-#require_recipe 'postgres'
+require_recipe 'postgres'
 
 # uncomment if you want to run couchdb recipe
 # require_recipe "couchdb"
@@ -20,7 +20,7 @@
 # require_recipe "memcached"
 
 #uncomment to run the authorized_keys recipe
-#require_recipe "authorized_keys"
+require_recipe "authorized_keys"
 
 #uncomment to run the eybackup_slave recipe
 #require_recipe "eybackup_slave"
@@ -43,12 +43,12 @@
 #require_recipe "exim::auth"
 
 #uncomment to run the resque recipe
-#require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run the redis recipe
-#require_recipe "redis"
+require_recipe "redis"
 
-#require_recipe "logrotate"
+require_recipe "logrotate"
 #
 #uncomment to use the solr recipe
 #require_recipe "solr"
